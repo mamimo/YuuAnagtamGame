@@ -31,10 +31,14 @@
 
 package com.toy.anagrams.lib;
 
+import java.util.Random;
+
 /**
  * Implementation of the logic for the Anagram Game application.
  */
 final class StaticWordLibrary extends WordLibrary {
+    
+    Random rnd = new Random();
 
     private static final String[] WORD_LIST = {
         "apple",

@@ -31,12 +31,17 @@
 
 package com.toy.anagrams.lib;
 
+import java.util.Random;
+
 /**
  * Implementation of the logic for the Anagram Game application.
  */
 final class StaticWordLibrary extends WordLibrary {
+    
+    Random rnd = new Random();
 
     private static final String[] WORD_LIST = {
+        "apple",
         "abstraction",
         "ambiguous",
         "arithmetic",
@@ -84,12 +89,14 @@ final class StaticWordLibrary extends WordLibrary {
         "traditional"};
 
     private static final String[] SCRAMBLED_WORD_LIST = {
+        
         "batsartcoin",
         "maibuguos",
         "ratimhteci",
         "abkclssha",
         "ibmtpa",
         "iccrmutsnaec",
+        "orange",
         "ocbmnitaoni",
         "ocsnqeeutnyl",
         "ocsnroitmu",
